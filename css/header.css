@@ -11,7 +11,7 @@
   height    : 100%;
   position  : absolute;
   top       : 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .menu-item {
@@ -39,5 +39,7 @@
   position        : absolute;
   bottom          : 0;
   text-align      : center;
-  color: var(--s2);
+  color: var(--m1);
+  font-size: x-small;
+  margin-bottom: .2rem;
 }

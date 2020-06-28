@@ -1,0 +1,69 @@
+main {
+  height          : 90%;
+  width           : 65vw;
+  background-color: var(--p2);
+  color           : var(--p2);
+  position        : relative;
+  overflow-y      : scroll;
+  scroll-behavior: smooth;
+}
+
+.top {
+  position: absolute;
+  top     : 0;
+  width   : 100%;
+  height  : 10px;
+}
+
+.bottom {
+  position: absolute;
+  bottom  : 0;
+  width   : 100%;
+  height  : 10px;
+}
+
+.middle {
+  color  : var(--p1);
+  padding: 3rem;
+  color  : var(--s2);
+}
+
+.middle section {
+  height: 100vh;
+  text-align: justify;
+}
+
+.job-container {
+  margin-bottom: 5rem;
+}
+
+.job-title-container {
+  width          : 90%;
+  display        : flex;
+  justify-content: space-between;
+  align-items    : baseline;
+}
+
+.job-title-container span {
+  font-size: small;
+  font-weight: bold;
+}
+
+.middle h1 {
+  color            : var(--s1);
+  font-size        : 60px;
+  font-family      : 'Anton', sans-serif;
+  /* letter-spacing: .1rem; */
+}
+
+.middle h3 {
+  font-size: medium;
+  color        : var(--m1);
+  margin-bottom: 2rem;
+  margin-left  : 1rem;
+}
+
+.middle li {
+  list-style: '</>  ';
+  margin-bottom: 1rem;
+}
