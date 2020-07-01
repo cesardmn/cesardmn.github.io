@@ -1,45 +1,101 @@
-.sidebar {
-  height          : 90%;
-  width           : 10vw;
+.left-side-header {
+  height: 85.5%;
+  width : 6.5vw;
+
+  display        : flex;
+  flex-direction : column;
+  justify-content: space-between;
+  align-items    : center;
+
   background-color: var(--p2);
-  position        : relative;
-  text-align      : center;
+}
+
+.home-button {
+  width : 100%;
+  height: 20%;
+
+  background-color: var(--m1);
+}
+
+.home-button a {
+  height: 100%;
+  width : 100%;
+
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+
+  font-size: x-large;
 }
 
 .nav-menu {
   width     : 100%;
   height    : 100%;
-  position  : absolute;
-  top       : 0;
   overflow-y: scroll;
 }
 
-.menu-item {
-  font-size     : x-large;
-  padding       : 4vh 0;
-  color         : var(--s1);
-  display       : flex;
-  flex-direction: column;
-  transition    : .2s;
+.menu {
+  height: 100%;
+  width : 100%;
+
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: space-around;
+
 }
 
-.menu-item:hover {
+.menu a {
+  height: 20%;
+  width : 100%;
+
+  color: var(--s1);
+
+  transition: .2s;
+  display   : block;
+}
+
+
+.menu a:hover {
   background-color: var(--m1);
   color           : var(--p2);
 }
 
-.menu-item span {
-  color     : var(--p2);
-  font-size : medium;
-  margin-top: .5rem;
+
+.menu-item {
+  height: 100%;
+  width : 100%;
+
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
 }
 
+.menu-item i {
+  font-size: large;
+}
+
+.menu-item span {
+  font-size  : x-small;
+  font-weight: bold;
+  color      : var(--p2);
+  margin-top : .5rem;
+
+}
+
+
 .date {
-  width           : 100%;
-  position        : absolute;
-  bottom          : 0;
-  text-align      : center;
-  color: var(--m1);
-  font-size: x-small;
-  margin-bottom: .2rem;
+  height: 10%;
+  width : 100%;
+
+  display        : flex;
+  justify-content: center;
+  align-items    : flex-end;
+
+  font-size : xx-small;
+  color     : var(--m1);
+  text-align: center;
+
 }
