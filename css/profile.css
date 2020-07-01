@@ -1,54 +1,63 @@
 .profile {
-  height: 100%;
-  width : 32vw;
-  position: relative;
+  height    : 100%;
+  width     : 32vw;
+  position  : relative;
   text-align: center;
 }
 
-.profile-wrap {
-  width: 100%;
-  height: 100%;
-  background-image   : url(../static/Profile.png);
-  background-repeat  : no-repeat;
-  background-size    : cover;
+.profile-avatar {
+  width            : 100%;
+  height           : 100%;
+  background-image : url(../static/Profile.png);
+  background-repeat: no-repeat;
+  background-size  : cover;
+  background-color: var(--s2);
 }
 
 .profile-titles {
-  width: 100%;
-  position: absolute;
-  bottom: 20vh;
-  color: var(--s1);
-  font-size: large;
+  width       : 100%;
+  position    : absolute;
+  bottom      : 12.5vh;
 }
 
 .profile-titles h1 {
-  margin-bottom: .5rem;
+  font-size: 54px;
+  color: var(--s1);
+  font-weight: 900;
+  transform:scale(1,1.1);letter-spacing: -.1rem;
+  text-shadow: 0px 0px 8px rgba(246,238,238,0.2);
 }
 
 .profile-titles h3 {
-  color: var(--m1);
-  font-size: medium;
-  margin-bottom: 1rem;
+  color        : var(--m1);
+  font-size    : medium;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 .social {
-  width: 100%;
-  display: flex;
+  width          : 100%;
+  display        : flex;
   justify-content: space-around;
-  padding: 0 3rem;
 }
 
 .social li {
-  height: 3rem;
-  width: 3rem;
-  padding: 1rem;
-  transition: .2s;
-  display: flex;
-  align-items: center;
+  height         : 3rem;
+  width          : 3rem;
+  padding        : 1rem;
+  transition     : .2s;
+  display        : flex;
+  align-items    : center;
+  padding        : 0 3rem;  
   justify-content: center;
 }
 
+.social i {
+  text-shadow: 0px 0px 8px rgba(246,238,238,0.2);
+  color: var(--s1);
+}
+
 .social li:hover {
-  color: var(--m1);
+  color    : var(--m1);
   font-size: x-large;
 }
