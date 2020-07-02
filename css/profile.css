@@ -11,27 +11,28 @@
   background-image : url(../static/Profile.png);
   background-repeat: no-repeat;
   background-size  : cover;
-  background-color: var(--s2);
+  background-color : var(--s2);
 }
 
 .profile-titles {
-  width       : 100%;
-  position    : absolute;
-  bottom      : 12.5vh;
+  width   : 100%;
+  position: absolute;
+  bottom  : 12.5vh;
 }
 
 .profile-titles h1 {
-  font-size: 54px;
-  color: var(--s1);
-  font-weight: 900;
-  transform:scale(1,1.1);letter-spacing: -.1rem;
-  text-shadow: 0px 0px 8px rgba(246,238,238,0.2);
+  font-size     : 54px;
+  color         : var(--s1);
+  font-weight   : 900;
+  transform     : scale(1, 1.1);
+  letter-spacing: -.1rem;
+  text-shadow   : 0px 0px 8px rgba(246, 238, 238, 0.2);
 }
 
 .profile-titles h3 {
   color        : var(--m1);
   font-size    : medium;
-  margin-top: .5rem;
+  margin-top   : .5rem;
   margin-bottom: .5rem;
 }
 
@@ -48,13 +49,13 @@
   transition     : .2s;
   display        : flex;
   align-items    : center;
-  padding        : 0 3rem;  
+  padding        : 0 3rem;
   justify-content: center;
 }
 
 .social i {
-  text-shadow: 0px 0px 8px rgba(246,238,238,0.2);
-  color: var(--s1);
+  text-shadow: 0px 0px 8px rgba(246, 238, 238, 0.2);
+  color      : var(--s1);
 }
 
 .social li:hover {
