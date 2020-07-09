@@ -73,6 +73,10 @@ main {
   line-height: 2rem;
 }
 
+.social-sobre {
+  display: none
+}
+
 .jobs-container {
   min-height: 100vh;
 }
