@@ -94,6 +94,7 @@ main {
   flex-direction: column;
   padding: 1rem;
   overflow: auto;
+  scrollbar-color: var(--bk-3) var(--bk-2);
 }
 
 .main-container{
