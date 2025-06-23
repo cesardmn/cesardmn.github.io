@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "test:watch": "vitest --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "master -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
